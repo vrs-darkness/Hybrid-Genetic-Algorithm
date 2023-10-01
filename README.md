@@ -2,15 +2,18 @@
 
 ## Travelling Sales-Man Problem:
     
-        Given a set of Cities and Distance between every pair of cities, the problem is to find
-        the shortest possible route that visits every city exactly once and return to the starting Point.
-        The Below Diagram iis what that is used as the Map for the cities.
-        ![Intial Map](./Input.png)
+        Given a set of Cities and Distance between every pair of cities, 
+        the problem is to find the shortest possible route that visits 
+        every city exactly once and return to the starting Point. The Below Diagram is 
+        what that is used as the Map for the cities.
+
+![Intial Map](./Input.png)
 
 ## Genetic Algorithm:
-        It is a Heuristic Search Algorithm that uses the idea of Evolution to Find the Best result. It is based on Natural 
-        Selection and Mutations.They are used to generate High Quality Solutions for optimization problems and searches
-        It basically works based on the idea of "Survival of the Fittest"
+        It is a Heuristic Search Algorithm that uses the idea of Evolution to Find the 
+        Best result. It is based on Natural Selection and Mutations.They are used to
+        generate High Quality Solutions for optimization problems and searches. It 
+        basically works based on the idea of "Survival of the Fittest"
         
         Pseudo Code:
                 1) Randomly Intialize a population( In this Case write all the paths that are possible)
@@ -58,4 +61,4 @@
             Best Path: possible paths    E-D-A-C-B-E
             Cost                       34
             The below Image shows the Final Path
-            ![Alt Out](Output.png)
+![Alt Out](Output.png)
