@@ -6,8 +6,7 @@
         the problem is to find the shortest possible route that visits 
         every city exactly once and return to the starting Point. The Below Diagram is 
         what that is used as the Map for the cities.
-
-![Intial Map](./Input.png)
+<center><img src="Input.png"  width="500" height="300"></center>
 
 ## Genetic Algorithm:
         It is a Heuristic Search Algorithm that uses the idea of Evolution to Find the 
@@ -60,5 +59,5 @@
         Final Result that was recorded is :
             Best Path: possible paths    E-D-A-C-B-E
             Cost                       34
-            The below Image shows the Final Path
-![Alt Out](Output.png)
+            The below Image shows the Final Path:
+<center><img src="Output.png"  width="500" height="300"></center>
