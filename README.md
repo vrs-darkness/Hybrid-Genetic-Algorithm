@@ -23,12 +23,18 @@
 
 ## Simulated Annealing:
 
-        Genetic Algorithm usually gets stuck @ Local Minima in these cases, so as to account for Global minima we 
-        use this Technique called Simulated Annealing. This Technique uses an Analogy similar to the Metallurgical practice by which a metal is heated to a very high temperature and then drastically cooled down. This idea can be used for minimizing any function where-in random changes are done during the time Temperature Falls from 1 to a minimum of 10^-4
+        Genetic Algorithm usually gets stuck @ Local Minima in these cases, so as to account
+        for Global minima weuse this Technique called Simulated Annealing. This Technique 
+        uses an Analogy similar to the Metallurgical practice by which a metal is heated 
+        to a very high temperature and then drastically cooled down. This idea can be used 
+        for minimizing any function where-in random changes are done during the time 
+        Temperature Falls from 1 to a minimum of 10^-4
 
 ## Hybrid Genetic Algorithm:
 
-        This Algorithm is nothing but Genetic Algorithm Coupled with Some other Algorithms like Hill-climbing etc., so as to account for Global Minima. Here we have used the Simulated Annealing technique for the Purpose
+        This Algorithm is nothing but Genetic Algorithm Coupled with Some other Algorithms like 
+        Hill-climbing etc., so as to account for Global Minima. Here we have used the 
+        Simulated Annealing technique for the Purpose
         Pseudo Code for This Algorithm:
 
                 1) Randomly Intialize a population( In this Case write all the paths that are possible)
@@ -42,7 +48,8 @@
                     f) End_Temp is set to 0.99
                     g) Util Temp < End_Temp    
                             A) Mutate both the offsprings
-                            B) Check if the Score has Improved and also account the randomness for acceptence
+                            B) Check if the Score has Improved and also account the 
+                                randomness for acceptence
                                     i) if passed change the intial Offsprings
                                     ii) pass
                             C)reduce the Temperature
