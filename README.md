@@ -5,8 +5,9 @@
         Given a set of Cities and Distance between every pair of cities, 
         the problem is to find the shortest possible route that visits 
         every city exactly once and returns to the starting Point. The Below Diagram is 
-        what is used as the Map for the cities.
-<center style="margin-left:25%"><img src="Input.png"  width="500" height="300"></center>
+        The map of the Cities.
+        
+   <img src="Input.png" width="600" height="600" style="display:block; margin-left:500" />
 
 ## Genetic Algorithm:
         It is a Heuristic Search Algorithm that uses the idea of Evolution to Find the 
@@ -60,4 +61,4 @@
             Best Path: possible paths    E-D-A-C-B-E
             Cost                       34
             The below Image shows the Final Path:
-<center><img src="Output.png"  width="500" height="300"></center>
+ <img src="Output.png" width="600" height="600" style="display:block; margin-left:500" />
